@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>											
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:camt.053.001.01											
+camt.053.001.02.xsd">											
+	<BkToCstmrStmt>										
+		<GrpHdr>									
+			<MsgId>XYZA00001</MsgId>								
+			<CreDtTm>2009-10-30T03:30:47+02:00</CreDtTm>								
+			<!-- No need for message pagination (at this stage)-->								
+		</GrpHdr>									
+		<Stmt>									
+			<Id>XYZ000009</Id>								
+			<ElctrncSeqNb>120</ElctrncSeqNb>								
+			<LglSeqNb>97</LglSeqNb>								
+			<CreDtTm>2009-10-30T02:00:00+02:00</CreDtTm>								
+				<FrDtTm>2009-10-29T02:00:00+02:00</FrDtTm>							
+			<Acct>								
+				<Id>							
+					<IBAN>ABC090</IBAN>						
+				</Id>							
+				<Ccy>EUR</Ccy>							
+				<Ownr>							
+					<PstlAdr>						
+						<StrtNm>ABC</StrtNm>					
+						<PstCd>00001</PstCd>					
+						<TwnNm>XXX</TwnNm>					
+					</PstlAdr>						
+				</Ownr>										
+			</Acct>								
+		</Stmt>									
+		</BkToCstmrStmt>										
+</Document>
